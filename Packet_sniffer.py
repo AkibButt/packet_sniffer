@@ -26,4 +26,5 @@ def process_packet(packet):
             print("\n\n[+] Usernames And Passwords >> >> :\n\n" + login_info)
 
 
-sniff("wlan0")
+interface=input("Enter Interface To Sniff :")
+sniff(interface)
